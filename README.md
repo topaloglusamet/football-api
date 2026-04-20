@@ -106,4 +106,3 @@ GET https://samettopaloglu.com/futbol.php?op=team&id=79&season=2025/2026&fixture
 ---
 
 
-Developed by **[Samet Topaloğlu](https://samettopaloglu.com)**.
