@@ -2,10 +2,10 @@
 
 Professional, fast, and easy-to-use Football Data API providing live scores, match results, standings, and detailed Opta statistics in JSON format.
 
-## 🚀 Key Features
+## Key Features
 
 - **Live Scores:** Real-time updates for ongoing matches.
-- **Detailed Stats:** Opta-powered player and team statistics.
+- **Detailed Stats:** Player and team statistics.
 - **Historical Data:** Archive access for past seasons and leagues.
 - **Bilingual:** Fully supports Turkish and English documentation.
 - **Clean JSON:** Optimized and sanitized response for developers.
