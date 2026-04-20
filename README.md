@@ -12,8 +12,11 @@ Professional, fast, and easy-to-use Football Data API providing live scores, mat
 
 ## 📖 Access the Documentation
 
-You can view the interactive documentation here:
-[https://samettopaloglu.com/futboldoc.html](https://samettopaloglu.com/futboldoc.html)
+You can view the interactive, bilingual, and detailed API documentation here:
+
+[![View Documentation](https://img.shields.io/badge/VIEW_INTERACTIVE_DOCS-2563eb?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://samettopaloglu.com/futboldoc.html)
+
+---
 
 ## 📋 API Endpoints
 
@@ -70,7 +73,6 @@ Retrieve all sub-leagues and competitions under a category for a given year to f
 GET https://samettopaloglu.com/futbol.php?op=leagues&group=22&year=2025/2026
 ```
 
-
 **League Standings (Table)**
 Get the detailed league table for a given competition.
 
@@ -104,5 +106,3 @@ GET https://samettopaloglu.com/futbol.php?op=team&id=79&season=2025/2026&fixture
 ```
 
 ---
-
-
