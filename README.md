@@ -105,6 +105,8 @@ Retrieve detailed squad data and average age for a team.
 ```
 https://samettopaloglu.com/futbol.php?op=team&id=79&season=2025/2026
 ```
+<br>
+<br>
 
 **Team Full History & Performance**
 Get the entire season's matches, results, and Opta performance metrics.
