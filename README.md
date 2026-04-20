@@ -25,7 +25,7 @@ You can view the interactive, bilingual, and detailed API documentation here:
 Retrieve all matches for a specific date.
 
 ```http
-GET https://samettopaloglu.com/futbol.php?date=15/04/2026
+https://samettopaloglu.com/futbol.php?date=15/04/2026
 ```
 
 ---
@@ -35,7 +35,7 @@ GET https://samettopaloglu.com/futbol.php?date=15/04/2026
 Retrieve detailed information for a specific match using its ID.
 
 ```http
-GET https://samettopaloglu.com/futbol.php?date=15/04/2026&id=4453644
+https://samettopaloglu.com/futbol.php?date=15/04/2026&id=4453644
 ```
 
 ---
@@ -45,7 +45,7 @@ GET https://samettopaloglu.com/futbol.php?date=15/04/2026&id=4453644
 Retrieve detailed player and team statistics for a specific match.
 
 ```http
-GET https://samettopaloglu.com/futbol.php?id=4453644&stats=1
+https://samettopaloglu.com/futbol.php?id=4453644&stats=1
 ```
 
 ---
@@ -56,35 +56,35 @@ GET https://samettopaloglu.com/futbol.php?id=4453644&stats=1
 Retrieve a list of supported countries and groups.
 
 ```http
-GET https://samettopaloglu.com/futbol.php?op=groups
+https://samettopaloglu.com/futbol.php?op=groups
 ```
 
 **Season Years**
 Get available historical seasons for a specific group.
 
 ```http
-GET https://samettopaloglu.com/futbol.php?op=years&group=22
+https://samettopaloglu.com/futbol.php?op=years&group=22
 ```
 
 **Sub-Leagues (Competitions)**
 Retrieve all sub-leagues and competitions under a category for a given year to find the required `leagueId`.
 
 ```http
-GET https://samettopaloglu.com/futbol.php?op=leagues&group=22&year=2025/2026
+https://samettopaloglu.com/futbol.php?op=leagues&group=22&year=2025/2026
 ```
 
 **League Standings (Table)**
 Get the detailed league table for a given competition.
 
 ```http
-GET https://samettopaloglu.com/futbol.php?op=table&league=70870
+https://samettopaloglu.com/futbol.php?op=table&league=70870
 ```
 
 **Weekly Fixtures**
 Get match schedules for a specific league and week.
 
 ```http
-GET https://samettopaloglu.com/futbol.php?op=fixtures&league=70870&week=4
+https://samettopaloglu.com/futbol.php?op=fixtures&league=70870&week=4
 ```
 
 ---
@@ -95,14 +95,14 @@ GET https://samettopaloglu.com/futbol.php?op=fixtures&league=70870&week=4
 Retrieve detailed squad data and average age for a team.
 
 ```http
-GET https://samettopaloglu.com/futbol.php?op=team&id=79&season=2025/2026
+https://samettopaloglu.com/futbol.php?op=team&id=79&season=2025/2026
 ```
 
 **Team Full History & Performance**
 Get the entire season's matches, results, and Opta performance metrics.
 
 ```http
-GET https://samettopaloglu.com/futbol.php?op=team&id=79&season=2025/2026&fixtures=1
+https://samettopaloglu.com/futbol.php?op=team&id=79&season=2025/2026&fixtures=1
 ```
 
 ---
