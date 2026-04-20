@@ -72,6 +72,8 @@ Retrieve all sub-leagues and competitions under a category for a given year to f
 ```
 https://samettopaloglu.com/futbol.php?op=leagues&group=22&year=2025/2026
 ```
+<br>
+<br>
 
 **League Standings (Table)**
 Get the detailed league table for a given competition.
