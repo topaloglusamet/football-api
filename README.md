@@ -9,7 +9,7 @@ Professional and fast JSON API for football enthusiasts and developers.
 ### 📅 Daily Match List
 Retrieve all matches for a specific date.
 
-`GET` **Daily Match List**
+![GET](https://img.shields.io/badge/GET-2563eb?style=for-the-badge) **Daily Match List**
 ```http
 https://samettopaloglu.com/futbol.php?date=09/02/2026
 ```
@@ -19,7 +19,7 @@ https://samettopaloglu.com/futbol.php?date=09/02/2026
 ### 🔍 Single Match Details
 Retrieve detailed information for a specific match using its ID.
 
-`GET` **Single Match**
+![GET](https://img.shields.io/badge/GET-2563eb?style=for-the-badge) **Single Match**
 ```http
 https://samettopaloglu.com/futbol.php?date=09/02/2026&id=4308507
 ```
@@ -29,7 +29,7 @@ https://samettopaloglu.com/futbol.php?date=09/02/2026&id=4308507
 ### 📊 Match Statistics (Opta)
 Retrieve detailed player and team statistics for a specific match.
 
-`GET` **Match Statistics**
+![GET](https://img.shields.io/badge/GET-2563eb?style=for-the-badge) **Match Statistics**
 ```http
 https://samettopaloglu.com/futbol.php?id=4308507&stats=1
 ```
@@ -39,20 +39,20 @@ https://samettopaloglu.com/futbol.php?id=4308507&stats=1
 ### 🌍 Archive & League Data
 Access historical data, competition categories, and standings.
 
-**Categories (Groups)**
-`GET`
+**Categories (Groups)**  
+![GET](https://img.shields.io/badge/GET-2563eb?style=for-the-badge)
 ```http
 https://samettopaloglu.com/futbol.php?op=groups
 ```
 
-**League Table (Standings)**
-`GET`
+**League Table (Standings)**  
+![GET](https://img.shields.io/badge/GET-2563eb?style=for-the-badge)
 ```http
 https://samettopaloglu.com/futbol.php?op=table&league=70381
 ```
 
-**Weekly Fixtures**
-`GET`
+**Weekly Fixtures**  
+![GET](https://img.shields.io/badge/GET-2563eb?style=for-the-badge)
 ```http
 https://samettopaloglu.com/futbol.php?op=fixtures&league=70381&week=25
 ```
@@ -62,14 +62,14 @@ https://samettopaloglu.com/futbol.php?op=fixtures&league=70381&week=25
 ### 🛡️ Team Information
 Detailed squad data, player market values, and statistics.
 
-**Team Squad & Basic Stats**
-`GET`
+**Team Squad & Basic Stats**  
+![GET](https://img.shields.io/badge/GET-2563eb?style=for-the-badge)
 ```http
 https://samettopaloglu.com/futbol.php?op=team&id=2&season=2025/2026
 ```
 
-**Full Season Fixtures & Performance**
-`GET`
+**Full Season Fixtures & Performance**  
+![GET](https://img.shields.io/badge/GET-2563eb?style=for-the-badge)
 ```http
 https://samettopaloglu.com/futbol.php?op=team&id=2&season=2025/2026&fixtures=1
 ```
