@@ -58,6 +58,8 @@ Retrieve a list of supported countries and groups.
 ```
 https://samettopaloglu.com/futbol.php?op=groups
 ```
+<br>
+<br>
 
 **Season Years**
 Get available historical seasons for a specific group.
@@ -65,6 +67,8 @@ Get available historical seasons for a specific group.
 ```
 https://samettopaloglu.com/futbol.php?op=years&group=22
 ```
+<br>
+<br>
 
 **Sub-Leagues (Competitions)**
 Retrieve all sub-leagues and competitions under a category for a given year to find the required `leagueId`.
