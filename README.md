@@ -84,8 +84,6 @@ https://samettopaloglu.com/futbol.php?op=table&league=70870
 Get match schedules for a specific league and week.
 <br>
 <br>
-<br>
-
 ```
 https://samettopaloglu.com/futbol.php?op=fixtures&league=70870&week=4
 ```
