@@ -17,7 +17,7 @@ You can view the interactive documentation here:
 
 ## 📋 API Endpoints
 
-### 📅 Daily Match List
+### Daily Match List
 
 Retrieve all matches for a specific date.
 
@@ -27,7 +27,7 @@ GET https://samettopaloglu.com/futbol.php?date=15/04/2026
 
 ---
 
-### 🔍 Single Match Details
+### Single Match Details
 
 Retrieve detailed information for a specific match using its ID.
 
@@ -37,7 +37,7 @@ GET https://samettopaloglu.com/futbol.php?date=15/04/2026&id=4453644
 
 ---
 
-### 📊 Match Statistics (Opta)
+### Match Statistics (Opta)
 
 Retrieve detailed player and team statistics for a specific match.
 
@@ -47,7 +47,7 @@ GET https://samettopaloglu.com/futbol.php?id=4453644&stats=1
 
 ---
 
-### 🌍 Archive & League Data
+### Archive & League Data
 
 **Categories (Groups)**
 Retrieve a list of supported countries and groups.
@@ -70,44 +70,30 @@ Retrieve all sub-leagues and competitions under a category for a given year to f
 GET https://samettopaloglu.com/futbol.php?op=leagues&group=22&year=2025/2026
 ```
 
-<details>
-<summary>View Response Example</summary>
-
-```json
-{
-    "l": [
-        {
-            "league": 70870,
-            "leagueName": "Lig Aşaması"
-        }
-    ]
-}
-```
-</details>
 
 **League Standings (Table)**
 Get the detailed league table for a given competition.
 
 ```http
-GET https://samettopaloglu.com/futbol.php?op=table&league={leagueId}
+GET https://samettopaloglu.com/futbol.php?op=table&league=70870
 ```
 
 **Weekly Fixtures**
 Get match schedules for a specific league and week.
 
 ```http
-GET https://samettopaloglu.com/futbol.php?op=fixtures&league={leagueId}&week={weekNum}
+GET https://samettopaloglu.com/futbol.php?op=fixtures&league=70870&week=4
 ```
 
 ---
 
-### 🛡️ Team Information
+### Team Information
 
 **Team Squad & Market Values**
 Retrieve detailed squad data and average age for a team.
 
 ```http
-GET https://samettopaloglu.com/futbol.php?op=team&id={teamId}&season=2025/2026
+GET https://samettopaloglu.com/futbol.php?op=team&id=79&season=2025/2026
 ```
 
 **Team Full History & Performance**
@@ -119,7 +105,5 @@ GET https://samettopaloglu.com/futbol.php?op=team&id=79&season=2025/2026&fixture
 
 ---
 
-## 📝 License & Author
 
 Developed by **[Samet Topaloğlu](https://samettopaloglu.com)**.
-This project is licensed under the MIT License.
