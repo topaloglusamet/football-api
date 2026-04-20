@@ -1,6 +1,6 @@
 # ⚽ Football Data API Documentation
 
-Professional, fast, and easy-to-use Football Data API providing live scores, match results, standings, and detailed Opta statistics in JSON format.
+Professional, fast, and easy-to-use Football Data API providing live scores, match results, standings, and detailed statistics in JSON format.
 
 ## Key Features
 
@@ -40,7 +40,7 @@ GET https://samettopaloglu.com/futbol.php?date=15/04/2026&id=4453644
 
 ---
 
-### Match Statistics (Opta)
+### Match Statistics
 
 Retrieve detailed player and team statistics for a specific match.
 
