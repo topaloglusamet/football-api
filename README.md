@@ -79,10 +79,11 @@ Get the detailed league table for a given competition.
 ```
 https://samettopaloglu.com/futbol.php?op=table&league=70870
 ```
+<br>
+<br>
 
 **Weekly Fixtures**
 Get match schedules for a specific league and week.
-<br>
 <br>
 ```
 https://samettopaloglu.com/futbol.php?op=fixtures&league=70870&week=4
